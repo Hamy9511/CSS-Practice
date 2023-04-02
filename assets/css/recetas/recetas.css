@@ -2,5 +2,22 @@
     background: #dab997;
     display: flex;
     flex-wrap: wrap;
-    padding: 5rem /*Arriba*/ 0 /*derecha*/ 0 /*abajo*/ 5rem /*izquierda*/;
+}
+
+@media screen and (min-width:0) {
+    .recetas{
+        padding: 5rem /*Arriba*/ 0 /*derecha*/ 0 /*abajo*/ 1rem /*izquierda*/;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .recetas{
+        padding: 5rem /*Arriba*/ 0 /*derecha*/ 0 /*abajo*/ 2.5rem /*izquierda*/;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .recetas{
+        padding: 5rem /*Arriba*/ 0 /*derecha*/ 0 /*abajo*/ 5rem /*izquierda*/;
+    }
 }

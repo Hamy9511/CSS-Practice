@@ -1,5 +1,18 @@
 .sobre__descripcion{
     color: #8c8888; 
-    font-size: 1.75rem;
     text-align: center;
+}
+
+@media  and (min-width: 0) {
+    
+    .sobre__descripcion{
+        font-size: 1.3rem;
+    }
+}
+
+@media  and (min-width: 768px) {
+    .sobre__descripcion{
+
+        font-size: 1.75rem;
+    }
 }
